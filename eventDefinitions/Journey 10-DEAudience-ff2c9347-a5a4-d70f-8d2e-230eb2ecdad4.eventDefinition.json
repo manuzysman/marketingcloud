@@ -1,0 +1,58 @@
+{
+    "id": "18ee1ea2-b059-4e98-b8c7-257b0efe63eb",
+    "type": "EmailAudience",
+    "name": "Journey 10",
+    "description": "",
+    "createdDate": "2025-04-03T05:56:35.96",
+    "createdBy": 737357460,
+    "modifiedDate": "2025-04-03T05:56:35.96",
+    "modifiedBy": 737357460,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-ff2c9347-a5a4-d70f-8d2e-230eb2ecdad4",
+    "dataExtensionId": "66a09324-11e6-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "All Contacts",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "18ee1ea2-b059-4e98-b8c7-257b0efe63eb",
+        "eventDefinitionKey": "DEAudience-ff2c9347-a5a4-d70f-8d2e-230eb2ecdad4",
+        "dataExtensionId": "66a09324-11e6-ef11-ba84-f40343e86d98",
+        "automationId": "a647bb37-5093-493b-b21b-4845e18fd30a",
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {
+        "unconfigured": false
+    },
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "recurring"
+    },
+    "schedule": {
+        "startDateTime": "2025-04-10T00:00:00",
+        "endDateTime": "2075-02-16T00:00:00",
+        "timeZone": "W. Europe Standard Time",
+        "occurrences": 13008,
+        "endType": "EndDate",
+        "frequency": "Weekly",
+        "recurrencePattern": "ByDay",
+        "interval": 1,
+        "sunday": false,
+        "monday": true,
+        "tuesday": true,
+        "wednesday": true,
+        "thursday": true,
+        "friday": true,
+        "saturday": false
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "dc3ff318-953a-4029-a037-735be19169f4",
+    "disableDEDataLogging": false
+}

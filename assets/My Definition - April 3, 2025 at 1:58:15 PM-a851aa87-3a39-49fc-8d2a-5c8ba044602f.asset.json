@@ -1,0 +1,66 @@
+{
+    "id": 156520,
+    "customerKey": "a851aa87-3a39-49fc-8d2a-5c8ba044602f",
+    "objectID": "a62bcfdc-4975-417c-b109-a6b9937f8915",
+    "assetType": {
+        "id": 236,
+        "name": "packagedefinition",
+        "displayName": "packagedefinition"
+    },
+    "name": "My Definition - April 3, 2025 at 1:58:15 PM",
+    "owner": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "createdDate": "2025-04-03T05:58:32.487-06:00",
+    "createdBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "modifiedDate": "2025-04-03T05:58:47.283-06:00",
+    "modifiedBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/156520/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "availableViews": [],
+    "data": {
+        "info": {
+            "latestSnapshotVersion": 1
+        },
+        "entities": {
+            "assets": {},
+            "attributeGroups": {},
+            "automations": {},
+            "cloudPageCollections": {},
+            "dataExtensions": {},
+            "journeys": {
+                "e905948a-0def-4401-8940-7e47ae88f261": {
+                    "name": "Sample Journey"
+                }
+            },
+            "journeyTemplates": {},
+            "sharedDataExtensions": {}
+        }
+    },
+    "modelVersion": 2
+}
