@@ -1,0 +1,64 @@
+{
+    "id": "c0d6adf6-d2a3-402f-a5a2-b14c173c3dc0",
+    "name": "NewAutomation092625121116",
+    "description": "",
+    "key": "1ac2d026-4ef4-9984-80e0-ef7e6aad50d1",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 4,
+    "status": "PausedSchedule",
+    "categoryId": 65634,
+    "schedule": {
+        "id": "6a0e0d05-a87f-4aa8-b69d-5298f15432a7",
+        "typeId": 3,
+        "startDate": "2025-10-26T07:12:00",
+        "endDate": "2025-10-26T07:12:00",
+        "scheduledTime": "0001-01-01T07:00:00",
+        "rangeTypeId": 0,
+        "occurrences": 1,
+        "pattern": "<Pattern><PatternType>0</PatternType><DayInterval>1</DayInterval></Pattern>",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Romance Standard Time",
+        "scheduleStatus": "paused",
+        "timezoneId": 7
+    },
+    "steps": [
+        {
+            "id": "ee0d3989-b766-4f51-9efe-afbaf4ef1605",
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "56d43bbd-8fc7-44c3-bf35-8124e9d19c3f",
+                    "name": "Birthday Contacts",
+                    "activityObjectId": "998282e0-0eeb-4088-bf68-198bea027455",
+                    "objectTypeId": 300,
+                    "displayOrder": 2,
+                    "targetDataExtensions": [
+                        {
+                            "id": "10e8a9f5-b2fa-f011-ba69-f40343e7e538",
+                            "name": "BirthdayContacts",
+                            "key": "96B7080A-DC1B-4E30-A53A-A7A4E7BE75A9",
+                            "description": "",
+                            "rowCount": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cef7d219-e8a6-4013-bacc-e0f5203da5d1",
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "id": "e9d20c09-75d4-4616-976e-0eb29528ac10",
+                    "name": "NewSendEmailActivity092625121116",
+                    "activityObjectId": "f88ce87f-0008-f111-ba69-f40343e7e538",
+                    "objectTypeId": 42,
+                    "displayOrder": 2
+                }
+            ]
+        }
+    ]
+}

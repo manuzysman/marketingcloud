@@ -1,0 +1,13 @@
+{
+    "categoryId": 71932,
+    "objectId": "162d1699-da64-4795-b52b-d09bb5425ace",
+    "name": "SystemHiddenPortfolio",
+    "categoryDesc": "media folder to store media items",
+    "catType": "media",
+    "parentCatId": 65643,
+    "createDate": "2025-02-07T04:46:06.21",
+    "modifiedDate": "2025-02-07T04:46:06.21",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

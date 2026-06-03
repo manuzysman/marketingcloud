@@ -1,0 +1,13 @@
+{
+    "categoryId": 65643,
+    "objectId": "e90f8761-3bdf-4ada-91ef-9fbaa22f86b5",
+    "name": "HiddenCategory",
+    "categoryDesc": "Hidden folder to store Hidden items",
+    "catType": "hidden",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:17.643",
+    "modifiedDate": "2024-11-06T09:35:17.643",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

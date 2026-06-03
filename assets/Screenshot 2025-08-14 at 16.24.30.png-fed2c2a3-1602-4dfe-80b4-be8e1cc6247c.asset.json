@@ -1,0 +1,56 @@
+{
+    "id": 188411,
+    "customerKey": "fed2c2a3-1602-4dfe-80b4-be8e1cc6247c",
+    "objectID": "9144124e-9608-40dd-91b2-3df1073cad49",
+    "assetType": {
+        "id": 28,
+        "name": "png",
+        "displayName": "Image"
+    },
+    "fileProperties": {
+        "extension": "png",
+        "fileName": "Screenshot 2025-08-14 at 16.24.30.png",
+        "fileSize": 96630,
+        "height": 705,
+        "width": 1069,
+        "fileCreatedDate": "2025-09-24T01:55:42.4808345-06:00",
+        "publishedURL": "https://image.s51.sfmc-content.com/lib/fe3511737364047a761571/m/1/9144124e-9608-40dd-91b2-3df1073cad49.png"
+    },
+    "name": "Screenshot 2025-08-14 at 16.24.30.png",
+    "owner": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "createdDate": "2025-09-24T01:55:42.48-06:00",
+    "createdBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "modifiedDate": "2025-09-24T01:55:42.48-06:00",
+    "modifiedBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 2,
+        "name": "Published"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/188411/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}

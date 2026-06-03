@@ -1,0 +1,126 @@
+{
+    "id": 202929,
+    "customerKey": "7f214251-1f90-4f06-a4a3-e190d0af55f7",
+    "objectID": "e14332b9-54ba-4571-b59d-f4e00a4499f0",
+    "contentType": "application/vnd.etmc.email.Message; kind=textOnly",
+    "assetType": {
+        "id": 209,
+        "name": "textonlyemail",
+        "displayName": "Text Only Email"
+    },
+    "name": "copado_email_100825040812",
+    "description": "",
+    "owner": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "createdDate": "2025-12-09T05:25:17.683-06:00",
+    "createdBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "modifiedDate": "2025-12-09T05:25:17.683-06:00",
+    "modifiedBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/202929/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "views": {
+        "subjectline": {
+            "contentType": "application/vnd.etmc.email.View; kind=subjectline",
+            "thumbnail": {},
+            "content": "Copado Email 100825040812",
+            "meta": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": null
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "text": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": null
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "subscriptioncenter": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": null
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "forwardText": {
+            "thumbnail": {},
+            "availableViews": [],
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": null
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "subjectline",
+        "text",
+        "subscriptioncenter",
+        "forwardText"
+    ],
+    "data": {
+        "email": {
+            "options": {
+                "characterEncoding": "utf-8"
+            },
+            "legacy": {
+                "legacyId": 47904,
+                "legacyKey": "7f214251-1f90-4f06-a4a3-e190d0af55f7",
+                "legacyType": "email",
+                "legacyCategoryId": 65644
+            }
+        }
+    },
+    "legacyData": {
+        "legacyId": 47904,
+        "legacyKey": "7f214251-1f90-4f06-a4a3-e190d0af55f7",
+        "legacyType": "email",
+        "legacyCategoryId": 65644
+    },
+    "modelVersion": 2
+}

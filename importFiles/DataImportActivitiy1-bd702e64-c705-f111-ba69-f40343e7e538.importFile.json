@@ -1,0 +1,53 @@
+{
+    "allowErrors": true,
+    "customerKey": "DataImportActivitiy1",
+    "createdDate": "2026-02-09T08:55:37.643",
+    "modifiedDate": "2026-02-09T11:39:01.187",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "destinationObjectId": "aea52ed2-c4a5-f011-ba69-f40343e7e538",
+    "destinationId": 0,
+    "destinationObjectTypeId": 310,
+    "destinationName": "Data Extension Test1",
+    "encodingName": "utf-8",
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Email",
+            "destinationFieldName": "Email"
+        },
+        {
+            "sourceFieldName": "FirstName",
+            "destinationFieldName": "First_Name"
+        },
+        {
+            "sourceFieldName": "LastName",
+            "destinationFieldName": "Last_Name"
+        },
+        {
+            "sourceFieldName": "Phone",
+            "destinationFieldName": "Mobile"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "importDefinitionId": "bd702e64-c705-f111-ba69-f40343e7e538",
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "DataImportActivitiy1",
+    "sendEmailNotification": false,
+    "sourceCustomObjectId": "bad92ee9-40e5-ef11-ba84-f40343e86d98",
+    "sourceDataExtensionName": "Contact Data",
+    "standardQuotedStrings": true,
+    "subscriberImportTypeId": 255,
+    "updateTypeId": 1,
+    "fileTransferLocationTypeId": -1,
+    "blankFileProcessingType": 0
+}

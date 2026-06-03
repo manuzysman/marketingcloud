@@ -1,0 +1,14 @@
+{
+    "id": "156d26ef-f204-49cc-a353-61ef58654e02",
+    "name": "Companies",
+    "description": "",
+    "key": "2f731e6e-b703-4473-09a0-8c0e9ca9a157",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 2,
+    "status": "Ready",
+    "categoryId": 65634,
+    "schedule": {
+        "scheduleStatus": "none"
+    }
+}

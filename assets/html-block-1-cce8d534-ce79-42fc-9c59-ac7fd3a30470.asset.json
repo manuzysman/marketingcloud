@@ -1,0 +1,60 @@
+{
+    "id": 211567,
+    "customerKey": "cce8d534-ce79-42fc-9c59-ac7fd3a30470",
+    "objectID": "db53359f-308e-480e-8a04-2eeaa9a47a16",
+    "assetType": {
+        "id": 197,
+        "name": "htmlblock",
+        "displayName": "HTML Block"
+    },
+    "fileProperties": {
+        "fileName": "html-block-1"
+    },
+    "name": "html-block-1",
+    "owner": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "createdDate": "2026-02-15T02:45:12.22-06:00",
+    "createdBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "modifiedDate": "2026-02-15T02:45:12.22-06:00",
+    "modifiedBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/211567/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td class=\"stylingblock-content-wrapper camarker-inner\"><div>\n  test\n  <br>\n  <b>test2</b>\n</div></td></tr></table>",
+    "design": "",
+    "meta": {
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true
+            },
+            "styling": {}
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}

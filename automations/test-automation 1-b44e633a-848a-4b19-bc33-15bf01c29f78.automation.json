@@ -1,0 +1,63 @@
+{
+    "id": "b44e633a-848a-4b19-bc33-15bf01c29f78",
+    "name": "test-automation 1",
+    "key": "e493752b-72da-f698-88a3-7b80d2c35f58",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 4,
+    "status": "PausedSchedule",
+    "categoryId": 65634,
+    "schedule": {
+        "id": "cc04d0f0-9f44-4405-b6fb-02131ee5a350",
+        "typeId": 3,
+        "startDate": "2025-11-01T07:14:00",
+        "endDate": "2025-11-01T07:14:00",
+        "scheduledTime": "0001-01-01T07:00:00",
+        "rangeTypeId": 0,
+        "occurrences": 1,
+        "pattern": "<Pattern><PatternType>0</PatternType><DayInterval>1</DayInterval></Pattern>",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Romance Standard Time",
+        "scheduleStatus": "paused",
+        "timezoneId": 7
+    },
+    "steps": [
+        {
+            "id": "d45b2837-ccec-4c00-be1a-e9dc6bec6f1b",
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "4805a527-ec1a-4562-8b66-de57a0d933fa",
+                    "name": "Birthday Contacts",
+                    "activityObjectId": "e9ea45c7-a7ad-4979-95e6-f7e49b8fbf27",
+                    "objectTypeId": 300,
+                    "displayOrder": 1,
+                    "targetDataExtensions": [
+                        {
+                            "id": "8dd7c8ea-e0e6-ef11-ba84-f40343e86d98",
+                            "name": "BirthdayContacts",
+                            "key": "6EDF1DF6-EF99-4B48-8CAD-371478A00A7A",
+                            "description": "",
+                            "rowCount": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "c6b90239-0a3f-4a6a-b50e-f2aedcc38cca",
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "id": "8380d0f4-851f-4b05-99a9-902a661158bc",
+                    "name": "NewSendEmailActivity100225081023",
+                    "activityObjectId": "dd785755-679f-f011-ba69-f40343e7e538",
+                    "objectTypeId": 42,
+                    "displayOrder": 1
+                }
+            ]
+        }
+    ]
+}

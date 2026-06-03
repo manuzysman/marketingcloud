@@ -3,13 +3,13 @@
     "name": "Journey 10",
     "lastPublishedDate": "0001-01-01T00:00:00",
     "description": "",
-    "version": 1,
+    "version": 2,
     "workflowApiVersion": 1.0,
-    "createdDate": "2025-04-14T02:52:29.257",
-    "modifiedDate": "2025-04-14T02:52:29.257",
+    "createdDate": "2025-05-14T05:06:57.7",
+    "modifiedDate": "2025-05-14T05:06:57.7",
     "activities": [
         {
-            "id": "b0d32d05-0922-4463-837f-931d7e8dccf3",
+            "id": "d1cec326-3c9b-49aa-8b19-9b53464de79a",
             "key": "STOWAIT-1",
             "name": "Einstein STO - 4 Hours",
             "description": "",
@@ -146,75 +146,87 @@
             }
         },
         {
-            "id": "18b9cf16-065a-43a6-9fd3-00611f3ceb90",
-            "key": "WAITBYDURATION-3",
-            "name": "1 day",
+            "id": "e939a387-6ccb-44dd-8d1b-2d52c82050a8",
+            "key": "ENGAGEMENTSPLITV2-1",
+            "name": "Open Journey Email",
             "description": "",
-            "type": "WAIT",
+            "type": "ENGAGEMENTDECISION",
             "outcomes": [
                 {
-                    "key": "f0921f0e-9a5f-4193-8100-af298e4c96e4",
-                    "arguments": {},
+                    "key": "branchResult-1",
+                    "next": "WAITBYDURATION-2",
+                    "arguments": {
+                        "when": true
+                    },
                     "metaData": {
+                        "label": "Yes",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "branchResult-2",
+                    "next": "EMAILV2-2",
+                    "arguments": {
+                        "when": false
+                    },
+                    "metaData": {
+                        "label": "No",
                         "invalid": false
                     }
                 }
             ],
             "arguments": {},
             "configurationArguments": {
-                "waitDuration": 1,
-                "waitUnit": "DAYS"
+                "refActivityCustomerKey": "EMAILV2-1",
+                "statsTypeId": 2,
+                "engagementUrls": {
+                    "urls": []
+                }
             },
             "metaData": {
                 "isConfigured": true,
-                "uiType": "WAITBYDURATION"
+                "guidanceCardKey": null,
+                "refActivityName": "Journey Email"
             },
             "schema": {
                 "arguments": {
-                    "endDate": {
-                        "dataType": "Date",
+                    "conditionOutcome": {
+                        "dataType": "Boolean",
                         "isNullable": false,
                         "direction": "Out",
                         "readOnly": false,
                         "access": "Hidden"
                     },
-                    "waitEndDateAttributeDataBound": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "waitDefinitionId": {
+                    "definitionId": {
                         "dataType": "Text",
                         "isNullable": false,
                         "direction": "In",
                         "readOnly": false,
                         "access": "Hidden"
                     },
-                    "waitForEventId": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "executionMode": {
+                    "contactKey": {
                         "dataType": "Text",
                         "isNullable": false,
                         "direction": "In",
                         "readOnly": false,
                         "access": "Hidden"
                     },
-                    "startActivityKey": {
+                    "statsKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "requestId": {
                         "dataType": "Text",
                         "isNullable": true,
                         "direction": "In",
                         "readOnly": false,
                         "access": "Hidden"
                     },
-                    "waitQueueId": {
-                        "dataType": "LongNumber",
+                    "messageKey": {
+                        "dataType": "Text",
                         "isNullable": true,
                         "direction": "In",
                         "readOnly": false,
@@ -224,7 +236,7 @@
             }
         },
         {
-            "id": "35527227-7f34-493c-9086-135c183c8d48",
+            "id": "57fffd3c-5099-458d-939e-326775af7cfe",
             "key": "EMAILV2-1",
             "name": "Journey Email",
             "description": "",
@@ -385,7 +397,164 @@
             }
         },
         {
-            "id": "8105ea5c-e5b5-4fd1-a765-1b2c2df7db23",
+            "id": "a8df231d-4668-4f32-8ea8-4437464ab4ae",
+            "key": "WAITBYDURATION-1",
+            "name": "1 day",
+            "description": "",
+            "type": "WAIT",
+            "outcomes": [
+                {
+                    "key": "113c22f7-c5cb-4b48-b4cc-c59f39d2a695",
+                    "next": "ENGAGEMENTSPLITV2-1",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {},
+            "configurationArguments": {
+                "waitDuration": 1,
+                "waitUnit": "DAYS"
+            },
+            "metaData": {
+                "isConfigured": true,
+                "uiType": "WAITBYDURATION"
+            },
+            "schema": {
+                "arguments": {
+                    "endDate": {
+                        "dataType": "Date",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitEndDateAttributeDataBound": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitDefinitionId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitForEventId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "executionMode": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "startActivityKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitQueueId": {
+                        "dataType": "LongNumber",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "id": "9be129d8-ce82-4918-850f-6ff020b236d8",
+            "key": "WAITBYDURATION-3",
+            "name": "1 day",
+            "description": "",
+            "type": "WAIT",
+            "outcomes": [
+                {
+                    "key": "f0921f0e-9a5f-4193-8100-af298e4c96e4",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {},
+            "configurationArguments": {
+                "waitDuration": 1,
+                "waitUnit": "DAYS"
+            },
+            "metaData": {
+                "isConfigured": true,
+                "uiType": "WAITBYDURATION"
+            },
+            "schema": {
+                "arguments": {
+                    "endDate": {
+                        "dataType": "Date",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitEndDateAttributeDataBound": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitDefinitionId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitForEventId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "executionMode": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "startActivityKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitQueueId": {
+                        "dataType": "LongNumber",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "id": "af492fcb-c790-4c00-9bc0-a25afdfdbb31",
             "key": "EMAILV2-2",
             "name": "Journey Email",
             "description": "",
@@ -546,176 +715,7 @@
             }
         },
         {
-            "id": "5d0b2f59-cf68-4f1a-9c56-da3b0acdc302",
-            "key": "ENGAGEMENTSPLITV2-1",
-            "name": "Open Journey Email",
-            "description": "",
-            "type": "ENGAGEMENTDECISION",
-            "outcomes": [
-                {
-                    "key": "branchResult-1",
-                    "next": "WAITBYDURATION-2",
-                    "arguments": {
-                        "when": true
-                    },
-                    "metaData": {
-                        "label": "Yes",
-                        "invalid": false
-                    }
-                },
-                {
-                    "key": "branchResult-2",
-                    "next": "EMAILV2-2",
-                    "arguments": {
-                        "when": false
-                    },
-                    "metaData": {
-                        "label": "No",
-                        "invalid": false
-                    }
-                }
-            ],
-            "arguments": {},
-            "configurationArguments": {
-                "refActivityCustomerKey": "EMAILV2-1",
-                "statsTypeId": 2,
-                "engagementUrls": {
-                    "urls": []
-                }
-            },
-            "metaData": {
-                "isConfigured": true,
-                "guidanceCardKey": null,
-                "refActivityName": "Journey Email"
-            },
-            "schema": {
-                "arguments": {
-                    "conditionOutcome": {
-                        "dataType": "Boolean",
-                        "isNullable": false,
-                        "direction": "Out",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "definitionId": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "contactKey": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "statsKey": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "requestId": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "messageKey": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    }
-                }
-            }
-        },
-        {
-            "id": "1ce21794-edc4-490c-b866-ed4a4e8b49c3",
-            "key": "WAITBYDURATION-1",
-            "name": "1 day",
-            "description": "",
-            "type": "WAIT",
-            "outcomes": [
-                {
-                    "key": "113c22f7-c5cb-4b48-b4cc-c59f39d2a695",
-                    "next": "ENGAGEMENTSPLITV2-1",
-                    "arguments": {},
-                    "metaData": {
-                        "invalid": false
-                    }
-                }
-            ],
-            "arguments": {},
-            "configurationArguments": {
-                "waitDuration": 1,
-                "waitUnit": "DAYS"
-            },
-            "metaData": {
-                "isConfigured": true,
-                "uiType": "WAITBYDURATION"
-            },
-            "schema": {
-                "arguments": {
-                    "endDate": {
-                        "dataType": "Date",
-                        "isNullable": false,
-                        "direction": "Out",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "waitEndDateAttributeDataBound": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "waitDefinitionId": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "waitForEventId": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "executionMode": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "startActivityKey": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "waitQueueId": {
-                        "dataType": "LongNumber",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    }
-                }
-            }
-        },
-        {
-            "id": "f3ce6e77-8652-42f4-9a04-f174b7d944dc",
+            "id": "58572351-e345-4a35-8636-b5f6cd17a5e7",
             "key": "WAITBYDURATION-2",
             "name": "1 day",
             "description": "",
@@ -795,7 +795,7 @@
     ],
     "triggers": [
         {
-            "id": "efc57fd6-53d3-43fd-acd8-9a70a2ecfb85",
+            "id": "e9bd0125-6b32-4044-83ad-775ec46685a3",
             "key": "TRIGGER",
             "name": "TRIGGER",
             "description": "",
@@ -850,5 +850,6 @@
     "executionMode": "Production",
     "categoryId": 65640,
     "status": "Draft",
-    "scheduledStatus": "Draft"
+    "scheduledStatus": "Draft",
+    "campaigns": []
 }

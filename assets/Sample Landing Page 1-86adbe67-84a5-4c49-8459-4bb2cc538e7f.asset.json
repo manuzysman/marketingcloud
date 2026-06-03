@@ -1,0 +1,91 @@
+{
+    "id": 209743,
+    "customerKey": "86adbe67-84a5-4c49-8459-4bb2cc538e7f",
+    "objectID": "b885250e-22b5-4ace-a429-d846c6d6e6e8",
+    "contentType": "text/html",
+    "assetType": {
+        "id": 205,
+        "name": "webpage",
+        "displayName": "Web Page"
+    },
+    "version": 1,
+    "name": "Sample Landing Page 1",
+    "owner": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "createdDate": "2026-02-03T05:50:40.15-06:00",
+    "createdBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "modifiedDate": "2026-02-03T07:43:53.913-06:00",
+    "modifiedBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/209743/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "meta": {
+        "globalStyles": {
+            "isLocked": false,
+            "body": {
+                "max-width": "1280px",
+                "color": "#000000",
+                "font-family": "Arial",
+                "font-size": "12px",
+                "margin": "0px auto"
+            },
+            "template": {
+                "background-color": "#FFFFFF",
+                "border": "none",
+                "box-sizing": "border-box",
+                "padding": "0px",
+                "width": "100%"
+            },
+            "buttons": {},
+            "h1": {},
+            "h2": {},
+            "h3": {},
+            "links": {}
+        }
+    },
+    "views": {
+        "html": {
+            "thumbnail": {},
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Landing Page</title>\n    <style>\n        * {\n            margin: 0;\n            padding: 0;\n            box-sizing: border-box;\n        }\n        body {\n            font-family: Arial, sans-serif;\n            line-height: 1.6;\n            color: #222;\n        }\n        .hero {\n            background: linear-gradient(135deg, #667eea 0%, #2b3c44 100%);\n            color: white;\n            padding: 100px 20px;\n            text-align: center;\n            min-height: 100vh;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n        }\n        .hero h1 {\n            font-size: 48px;\n            margin-bottom: 20px;\n        }\n        .hero p {\n            font-size: 20px;\n            margin-bottom: 30px;\n            max-width: 600px;\n        }\n        .cta-button {\n            display: inline-block;\n            padding: 15px 40px;\n            background-color: #fffddd;\n            color: #928374;\n            text-decoration: none;\n            border-radius: 50px;\n            font-size: 18px;\n            font-weight: bold;\n            transition: transform 0.3s ease;\n        }\n        .cta-button:hover {\n            transform: translateY(-3px);\n            box-shadow: 0 10px 20px rgba(0,0,0,0.2);\n        }\n        .features {\n            padding: 80px 20px;\n            max-width: 1200px;\n            margin: 0 auto;\n        }\n        .features h2 {\n            text-align: center;\n            font-size: 36px;\n            margin-bottom: 50px;\n        }\n        .feature-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 40px;\n        }\n        .feature-card {\n            text-align: center;\n            padding: 30px;\n        }\n        .feature-card h3 {\n            font-size: 24px;\n            margin-bottom: 15px;\n            color: #667eea;\n        }\n        .footer {\n            background-color: #333;\n            color: white;\n            text-align: center;\n            padding: 30px 20px;\n        }\n        @media (max-width: 768px) {\n            .hero h1 {\n                font-size: 32px;\n            }\n            .hero p {\n                font-size: 18px;\n            }\n        }\n    </style>\n</head>\n<body>\n    <!-- Hero Section -->\n    <section class=\"hero\">\n        <h1>Welcome to Your Solution</h1>\n        <p>Transform your business with our innovative approach. Simple, effective, and designed for success.</p>\n        <a href=\"#contact\" class=\"cta-button\">Get Started</a>\n    </section>\n\n    <!-- Features Section -->\n    <section class=\"features\">\n        <h2>Why Choose Us</h2>\n        <div class=\"feature-grid\">\n            <div class=\"feature-card\">\n                <h3>Fast & Reliable</h3>\n                <p>Lightning-fast performance that you can depend on, every single time. Test deployment change.</p>\n            </div>\n            <div class=\"feature-card\">\n                <h3>Easy to Use</h3>\n                <p>Intuitive design that makes getting started a breeze, no learning curve.</p>\n            </div>\n            <div class=\"feature-card\">\n                <h3>24/7 Support</h3>\n                <p>Our team is always here to help you succeed, whenever you need us.</p>\n            </div>\n        </div>\n    </section>\n\n    <!-- Footer -->\n    <footer class=\"footer\">\n        <p>&copy; 2025 Your Company. All rights reserved.</p>\n    </footer>\n</body>\n</html>",
+            "meta": {},
+            "slots": {
+                "col1": {
+                    "design": "<p style=\"font-family:arial;color:#ccc;font-size:11px;text-align:center;vertical-align:middle;font-weight:bold;padding:10px;margin:0;border:#ccc dashed 1px;\">Drop blocks or content here</p>",
+                    "maxBlocks": 0,
+                    "allowedBlocks": [],
+                    "modelVersion": 2
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "html"
+    ],
+    "modelVersion": 2
+}

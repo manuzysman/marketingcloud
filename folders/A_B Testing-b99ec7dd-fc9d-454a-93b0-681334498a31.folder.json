@@ -1,0 +1,13 @@
+{
+    "categoryId": 65637,
+    "objectId": "b99ec7dd-fc9d-454a-93b0-681334498a31",
+    "name": "A/B Testing",
+    "categoryDesc": "",
+    "catType": "abtest",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:15.723",
+    "modifiedDate": "2024-11-06T09:35:15.723",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

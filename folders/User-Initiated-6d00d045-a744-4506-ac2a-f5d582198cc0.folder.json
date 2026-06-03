@@ -1,0 +1,13 @@
+{
+    "categoryId": 65626,
+    "objectId": "6d00d045-a744-4506-ac2a-f5d582198cc0",
+    "name": "User-Initiated",
+    "categoryDesc": "",
+    "catType": "userinitiatedsends",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:11.263",
+    "modifiedDate": "2024-11-06T09:35:11.263",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

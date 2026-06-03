@@ -1,0 +1,40 @@
+{
+    "id": "3cadf060-150b-478f-ae21-896cdd3d0c1f",
+    "type": "EmailAudience",
+    "name": "Copado Marketing Cloud Demo Journey Oct 24",
+    "description": "",
+    "createdDate": "2025-10-24T05:49:59.327",
+    "createdBy": 737446677,
+    "modifiedDate": "2025-10-24T05:49:59.327",
+    "modifiedBy": 737446677,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-a9b48cb2-c311-dda5-fa99-9b6e82571af1",
+    "dataExtensionId": "bad92ee9-40e5-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "Contact Data",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "3cadf060-150b-478f-ae21-896cdd3d0c1f",
+        "eventDefinitionKey": "DEAudience-a9b48cb2-c311-dda5-fa99-9b6e82571af1",
+        "dataExtensionId": "bad92ee9-40e5-ef11-ba84-f40343e86d98",
+        "criteria": "",
+        "automationId": "8110b853-3009-4486-aabc-b9382b1198a9"
+    },
+    "configurationArguments": {
+        "unconfigured": false
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "6047a8ee-cc84-4fbf-80bb-2ad2eabbc83a",
+    "disableDEDataLogging": false
+}

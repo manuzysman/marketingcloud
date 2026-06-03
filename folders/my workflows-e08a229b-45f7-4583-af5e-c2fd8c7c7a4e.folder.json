@@ -1,0 +1,13 @@
+{
+    "categoryId": 68542,
+    "objectId": "e08a229b-45f7-4583-af5e-c2fd8c7c7a4e",
+    "name": "my workflows",
+    "categoryDesc": "The root folder for workflows",
+    "catType": "campaign",
+    "parentCatId": 0,
+    "createDate": "2024-12-15T12:41:44.86",
+    "modifiedDate": "2024-12-15T12:41:44.86",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

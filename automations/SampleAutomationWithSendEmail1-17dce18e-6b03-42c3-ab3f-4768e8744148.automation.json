@@ -1,0 +1,44 @@
+{
+    "id": "17dce18e-6b03-42c3-ab3f-4768e8744148",
+    "name": "SampleAutomationWithSendEmail1",
+    "description": "",
+    "key": "a5459014-c2e4-424b-b923-30ed18ed6bf7",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 2,
+    "status": "Ready",
+    "categoryId": 65634,
+    "schedule": {
+        "scheduleStatus": "none"
+    },
+    "steps": [
+        {
+            "id": "1e818dbc-8942-47b9-9cc2-2bae6f61e222",
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "ac997e52-0b7b-4230-85aa-d6199a490006",
+                    "name": "1 Days",
+                    "activityObjectId": "c8e23455-2d64-4bdb-8b7d-b25e29166395",
+                    "objectTypeId": 467,
+                    "displayOrder": 1
+                }
+            ]
+        },
+        {
+            "id": "320b786b-f1f7-43ab-8227-166f20f2e2e2",
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "id": "63e09815-8261-4521-a1cf-bc923ba5cdcb",
+                    "name": "NewSendEmailActivity110525050706",
+                    "activityObjectId": "40e9a9f5-b2fa-f011-ba69-f40343e7e538",
+                    "objectTypeId": 42,
+                    "displayOrder": 1
+                }
+            ]
+        }
+    ]
+}

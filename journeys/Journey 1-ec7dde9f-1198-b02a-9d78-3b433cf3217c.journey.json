@@ -795,7 +795,7 @@
     ],
     "triggers": [
         {
-            "id": "eeebcd12-872b-43a9-88e2-89fb2e32e90f",
+            "id": "88ec642f-0571-4c05-8830-cb8b63e954af",
             "key": "TRIGGER",
             "name": "TRIGGER",
             "description": "",
@@ -850,5 +850,6 @@
     "executionMode": "Production",
     "categoryId": 11268,
     "status": "Draft",
-    "scheduledStatus": "Draft"
+    "scheduledStatus": "Draft",
+    "campaigns": []
 }

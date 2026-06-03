@@ -1,0 +1,40 @@
+{
+    "id": "8317508a-b330-4c4b-872d-afd1803553c8",
+    "type": "EmailAudience",
+    "name": "Multi Step Journey 1",
+    "description": "",
+    "createdDate": "2025-12-12T07:14:43.487",
+    "createdBy": 737357460,
+    "modifiedDate": "2025-12-12T07:14:43.487",
+    "modifiedBy": 737357460,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-0938e5f1-571d-c346-8b96-38b720a04ec6",
+    "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "Contact Data",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "8317508a-b330-4c4b-872d-afd1803553c8",
+        "eventDefinitionKey": "DEAudience-0938e5f1-571d-c346-8b96-38b720a04ec6",
+        "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+        "automationId": "5c55b751-821e-4160-90d0-2642b3722f63",
+        "criteria": ""
+    },
+    "configurationArguments": {
+        "unconfigured": true
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "7142459f-fb5a-452f-b927-33f8e34a5851",
+    "disableDEDataLogging": false
+}

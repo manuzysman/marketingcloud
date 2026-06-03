@@ -1,0 +1,56 @@
+{
+    "id": 202892,
+    "customerKey": "24ac18b5-2c69-4d06-b513-7641d2eabe55",
+    "objectID": "48af46dd-7946-4f7f-8f37-380dc2d4fdc7",
+    "assetType": {
+        "id": 23,
+        "name": "jpg",
+        "displayName": "Image"
+    },
+    "fileProperties": {
+        "fileName": "cat-test.jpg",
+        "extension": "jpg",
+        "fileSize": 437872,
+        "fileCreatedDate": "2025-12-09T04:56:55.327",
+        "width": 1920,
+        "height": 1280,
+        "publishedURL": "https://image.s51.sfmc-content.com/lib/fe3511737364047a761571/m/1/48af46dd-7946-4f7f-8f37-380dc2d4fdc7.jpg"
+    },
+    "name": "cat-test.jpg",
+    "owner": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "createdDate": "2025-12-09T04:56:55.327-06:00",
+    "createdBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "modifiedDate": "2025-12-09T05:25:00.91-06:00",
+    "modifiedBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 2,
+        "name": "Published"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/202892/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}

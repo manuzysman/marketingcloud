@@ -1,0 +1,40 @@
+{
+    "id": "dd6ac0ae-03b3-4b33-852f-094c0276fc36",
+    "type": "EmailAudience",
+    "name": "Sample Single Send 1",
+    "description": "",
+    "createdDate": "2025-12-12T07:14:48.003",
+    "createdBy": 737357460,
+    "modifiedDate": "2025-12-12T07:14:48.003",
+    "modifiedBy": 737357460,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-5ad53650-cff2-ebd4-cc2b-089f05b4ee2e",
+    "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "Contact Data",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "dd6ac0ae-03b3-4b33-852f-094c0276fc36",
+        "eventDefinitionKey": "DEAudience-5ad53650-cff2-ebd4-cc2b-089f05b4ee2e",
+        "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+        "automationId": "6de24a40-5527-4d77-8728-4ece4069ed0f",
+        "criteria": ""
+    },
+    "configurationArguments": {
+        "unconfigured": false
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "5f4518cb-f439-40a0-bc3b-b8d13e9286c2",
+    "disableDEDataLogging": false
+}

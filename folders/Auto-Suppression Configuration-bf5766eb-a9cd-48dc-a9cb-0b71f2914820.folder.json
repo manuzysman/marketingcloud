@@ -1,0 +1,13 @@
+{
+    "categoryId": 65638,
+    "objectId": "bf5766eb-a9cd-48dc-a9cb-0b71f2914820",
+    "name": "Auto-Suppression Configuration",
+    "categoryDesc": "",
+    "catType": "contextual_suppression_list",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:15.903",
+    "modifiedDate": "2024-11-06T09:35:15.903",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

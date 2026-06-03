@@ -1,0 +1,51 @@
+{
+    "id": 202926,
+    "customerKey": "05f1e35f-e442-49b4-9014-739062f06bee",
+    "objectID": "88b3110c-7ca8-486d-a769-09eabd72889a",
+    "assetType": {
+        "id": 4,
+        "name": "template",
+        "displayName": "Template"
+    },
+    "fileProperties": {
+        "fileName": "basic-email-template"
+    },
+    "name": "basic-email-template",
+    "owner": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "createdDate": "2025-12-09T05:24:52.747-06:00",
+    "createdBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "modifiedDate": "2025-12-09T05:24:52.747-06:00",
+    "modifiedBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/202926/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "content": "<html>\n  <head>\n    \n  </head>\n  <body>\n    <div>\n      Test email template\n    </div>\n  </body>\n</html>",
+    "availableViews": [],
+    "modelVersion": 2
+}

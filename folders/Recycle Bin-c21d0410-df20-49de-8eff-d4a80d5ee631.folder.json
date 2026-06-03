@@ -1,0 +1,13 @@
+{
+    "categoryId": 65628,
+    "objectId": "c21d0410-df20-49de-8eff-d4a80d5ee631",
+    "name": "Recycle Bin",
+    "categoryDesc": "",
+    "catType": "recyclebin",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:11.72",
+    "modifiedDate": "2024-11-06T09:35:11.72",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

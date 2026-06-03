@@ -1,0 +1,51 @@
+{
+    "id": 209744,
+    "customerKey": "bd4a0cab-1c0f-4dcd-900c-b28c1c4da9f1",
+    "objectID": "d804319d-23b2-4d11-b1af-734d586fb8ae",
+    "assetType": {
+        "id": 4,
+        "name": "template",
+        "displayName": "Template"
+    },
+    "fileProperties": {
+        "fileName": "Sample Demo Template"
+    },
+    "name": "Sample Demo Template",
+    "owner": {
+        "id": 737446677,
+        "email": "",
+        "name": "Marketing Cloud Demo app user",
+        "userId": "737446677"
+    },
+    "createdDate": "2026-02-03T05:53:55.19-06:00",
+    "createdBy": {
+        "id": 737446677,
+        "email": "",
+        "name": "Marketing Cloud Demo app user",
+        "userId": "737446677"
+    },
+    "modifiedDate": "2026-02-03T05:53:55.19-06:00",
+    "modifiedBy": {
+        "id": 737446677,
+        "email": "",
+        "name": "Marketing Cloud Demo app user",
+        "userId": "737446677"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/209744/thumbnail"
+    },
+    "category": {
+        "id": 102179,
+        "name": "Team 2 Email Templates",
+        "parentId": 102165
+    },
+    "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Marketing Cloud Test Email</title>\n    <style>\n        body {\n            margin: 0;\n            padding: 0;\n            font-family: Arial, sans-serif;\n            background-color: #f4f4f4;\n        }\n        .email-container {\n            max-width: 600px;\n            margin: 0 auto;\n            background-color: #ffffff;\n        }\n        .header {\n            background-color: #0176d3;\n            padding: 20px;\n            text-align: center;\n        }\n        .header h1 {\n            color: #ffffff;\n            margin: 0;\n            font-size: 24px;\n        }\n        .content {\n            padding: 30px 20px;\n        }\n        .content h2 {\n            color: #333333;\n            font-size: 20px;\n            margin-top: 0;\n        }\n        .content p {\n            color: #666666;\n            line-height: 1.6;\n            font-size: 16px;\n        }\n        .cta-button {\n            display: inline-block;\n            padding: 12px 30px;\n            background-color: #0176d3;\n            color: #ffffff;\n            text-decoration: none;\n            border-radius: 4px;\n            margin: 20px 0;\n        }\n        .footer {\n            background-color: #f4f4f4;\n            padding: 20px;\n            text-align: center;\n            font-size: 12px;\n            color: #999999;\n        }\n        /* Responsive */\n        @media only screen and (max-width: 600px) {\n            .content {\n                padding: 20px 15px;\n            }\n        }\n    </style>\n</head>\n<body>\n    <div class=\"email-container\">\n        <!-- Header -->\n        <div class=\"header\">\n            <h1>%%Member_Busname%%</h1>\n        </div>\n        \n        <!-- Content -->\n        <div class=\"content\">\n            <h2>Hello %%FirstName%%,</h2>\n            <p>This is a test email template for Marketing Cloud. You can customize this content to match your campaign needs.</p>\n            \n            <p>You can test AMPscript, dynamic content, and personalization strings using this template.</p>\n        </div>\n        \n        <!-- Footer -->\n        <div class=\"footer\">\n            <p>%%Member_Busname%%<br>\n            %%Member_Addr%%, %%Member_City%%, %%Member_State%% %%Member_PostalCode%%</p>\n            <p><a href=\"%%profile_center_url%%\" style=\"color: #0176d3;\">Update Profile</a> | \n            <a href=\"%%unsub_center_url%%\" style=\"color: #0176d3;\">Unsubscribe</a></p>\n            <p>&copy; 2025 All rights reserved.</p>\n        </div>\n    </div>\n</body>\n</html>",
+    "availableViews": [],
+    "modelVersion": 2
+}

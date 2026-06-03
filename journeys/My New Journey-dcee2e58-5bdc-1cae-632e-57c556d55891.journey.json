@@ -581,5 +581,6 @@
     "executionMode": "Production",
     "categoryId": 65640,
     "status": "Draft",
-    "scheduledStatus": "Draft"
+    "scheduledStatus": "Draft",
+    "campaigns": []
 }

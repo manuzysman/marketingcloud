@@ -1,0 +1,53 @@
+{
+    "id": "0b02ae76-c350-4772-bef6-d9206b4d2f4a",
+    "name": "SampleAutomationWithQueryAndScript",
+    "description": "",
+    "key": "637ee812-85fb-1039-efbe-d2c17aa1552f",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 2,
+    "status": "Ready",
+    "categoryId": 65634,
+    "schedule": {
+        "scheduleStatus": "none"
+    },
+    "steps": [
+        {
+            "id": "d5f1a430-a5fc-4bec-bec3-13733f866b8e",
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "1cc7c083-606d-4cac-b1e7-4e28b24fe74a",
+                    "name": "SQL Query04112025155617",
+                    "activityObjectId": "3e2f0105-7e88-4e3d-bd1a-02d1871ce72a",
+                    "objectTypeId": 300,
+                    "displayOrder": 2,
+                    "targetDataExtensions": [
+                        {
+                            "id": "aea52ed2-c4a5-f011-ba69-f40343e7e538",
+                            "name": "Data Extension Test1",
+                            "key": "test123",
+                            "description": "",
+                            "rowCount": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ca9fcd3b-085a-4c57-8b62-4c581beea687",
+            "name": "",
+            "step": 2,
+            "activities": [
+                {
+                    "id": "72a191b8-2a96-440f-b1f9-b11533aa4d83",
+                    "name": "ScriptActivity2",
+                    "activityObjectId": "ebf57964-716a-4d51-ab88-374e32d1d6b6",
+                    "objectTypeId": 423,
+                    "displayOrder": 2
+                }
+            ]
+        }
+    ]
+}

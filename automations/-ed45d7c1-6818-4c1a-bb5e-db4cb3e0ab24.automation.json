@@ -1,0 +1,14 @@
+{
+    "id": "ed45d7c1-6818-4c1a-bb5e-db4cb3e0ab24",
+    "name": "",
+    "description": "",
+    "key": "c958dab4-3c7b-43c4-ba81-551049d60129",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 2,
+    "status": "Ready",
+    "categoryId": 65634,
+    "schedule": {
+        "scheduleStatus": "none"
+    }
+}

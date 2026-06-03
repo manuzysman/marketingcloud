@@ -1,0 +1,13 @@
+{
+    "categoryId": 65622,
+    "objectId": "9dd32aea-d2e5-4a68-9ca1-c43c1a7575f9",
+    "name": "Salesforce Sends",
+    "categoryDesc": "",
+    "catType": "salesforcesendsv5",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:10.407",
+    "modifiedDate": "2024-11-06T09:35:10.407",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

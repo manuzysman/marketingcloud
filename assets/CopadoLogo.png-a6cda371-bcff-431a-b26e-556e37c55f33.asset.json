@@ -1,0 +1,56 @@
+{
+    "id": 209724,
+    "customerKey": "a6cda371-bcff-431a-b26e-556e37c55f33",
+    "objectID": "98a31601-4501-4a21-843c-023513d30982",
+    "assetType": {
+        "id": 28,
+        "name": "png",
+        "displayName": "Image"
+    },
+    "fileProperties": {
+        "fileName": "CopadoLogo.png",
+        "extension": "png",
+        "fileSize": 3265,
+        "fileCreatedDate": "2026-02-03T04:57:05.2579611-06:00",
+        "width": 211,
+        "height": 49,
+        "publishedURL": "https://image.s51.sfmc-content.com/lib/fe3511737364047a761571/m/1/98a31601-4501-4a21-843c-023513d30982.png"
+    },
+    "name": "CopadoLogo.png",
+    "owner": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "createdDate": "2026-02-03T04:57:05.257-06:00",
+    "createdBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "modifiedDate": "2026-02-03T04:57:05.257-06:00",
+    "modifiedBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 2,
+        "name": "Published"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/209724/thumbnail"
+    },
+    "category": {
+        "id": 102166,
+        "name": "Team 1 Email Templates",
+        "parentId": 102165
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}

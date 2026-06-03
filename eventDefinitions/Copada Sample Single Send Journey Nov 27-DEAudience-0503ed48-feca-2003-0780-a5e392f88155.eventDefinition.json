@@ -1,0 +1,40 @@
+{
+    "id": "85d41e78-79b8-4274-908f-c1706b13cd03",
+    "type": "EmailAudience",
+    "name": "Copada Sample Single Send Journey Nov 27",
+    "description": "",
+    "createdDate": "2025-12-09T06:45:21.763",
+    "createdBy": 737357460,
+    "modifiedDate": "2025-12-09T06:45:21.763",
+    "modifiedBy": 737357460,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-0503ed48-feca-2003-0780-a5e392f88155",
+    "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "Contact Data",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "85d41e78-79b8-4274-908f-c1706b13cd03",
+        "eventDefinitionKey": "DEAudience-0503ed48-feca-2003-0780-a5e392f88155",
+        "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+        "criteria": "",
+        "automationId": "e787f265-def5-4515-92f3-edac11513732"
+    },
+    "configurationArguments": {
+        "unconfigured": false
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "3929faf6-c772-41db-a4e1-9fc9003a9e51",
+    "disableDEDataLogging": false
+}

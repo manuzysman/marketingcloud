@@ -1,0 +1,40 @@
+{
+    "id": "bd00a069-0b9e-47d5-b3db-bb548c12e811",
+    "type": "EmailAudience",
+    "name": "Copado Sample Multi Step Journey Demo Thursday",
+    "description": "",
+    "createdDate": "2025-10-30T04:49:50.857",
+    "createdBy": 737446677,
+    "modifiedDate": "2025-10-30T04:49:50.857",
+    "modifiedBy": 737446677,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-12148f4c-4c49-d86f-658b-83953459560f",
+    "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "Contact Data",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "bd00a069-0b9e-47d5-b3db-bb548c12e811",
+        "eventDefinitionKey": "DEAudience-12148f4c-4c49-d86f-658b-83953459560f",
+        "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+        "automationId": "e70e05b1-ab4e-4103-9136-6cbfe3c08017",
+        "criteria": ""
+    },
+    "configurationArguments": {
+        "unconfigured": true
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "796c59c2-11a5-457a-b056-ddfa015767d5",
+    "disableDEDataLogging": false
+}

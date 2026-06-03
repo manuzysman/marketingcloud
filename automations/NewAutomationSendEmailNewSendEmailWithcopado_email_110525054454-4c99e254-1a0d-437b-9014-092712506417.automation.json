@@ -1,0 +1,41 @@
+{
+    "id": "4c99e254-1a0d-437b-9014-092712506417",
+    "name": "NewAutomationSendEmailNewSendEmailWithcopado_email_110525054454",
+    "description": "",
+    "key": "dc2b6fbc-4c68-32dc-207d-4d0bcff9b2aa",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 4,
+    "status": "PausedSchedule",
+    "categoryId": 65634,
+    "schedule": {
+        "id": "8eeb5599-9a2f-4d65-b3cd-90e0d3d15d36",
+        "typeId": 3,
+        "startDate": "2026-02-28T12:45:00",
+        "endDate": "2026-02-28T12:45:00",
+        "scheduledTime": "0001-01-01T10:00:00",
+        "rangeTypeId": 0,
+        "occurrences": 1,
+        "pattern": "<Pattern><PatternType>0</PatternType><DayInterval>1</DayInterval></Pattern>",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Azerbaijan Standard Time",
+        "scheduleStatus": "paused",
+        "timezoneId": 26
+    },
+    "steps": [
+        {
+            "id": "851c6433-5e3c-4fee-9e55-a713c34a0ca6",
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "0f52cdf9-f2eb-4fe8-a745-f6c50be89317",
+                    "name": "NewSendEmailWithcopado_email_110525054454",
+                    "activityObjectId": "caf263b9-3f00-f111-ba69-f40343e7e538",
+                    "objectTypeId": 42,
+                    "displayOrder": 2
+                }
+            ]
+        }
+    ]
+}

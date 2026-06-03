@@ -1,0 +1,13 @@
+{
+    "categoryId": 65624,
+    "objectId": "9b62ddea-137c-4381-848f-e65ce4708fce",
+    "name": "Suppression Lists",
+    "categoryDesc": "",
+    "catType": "suppression_list",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:10.723",
+    "modifiedDate": "2024-11-06T09:35:10.723",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

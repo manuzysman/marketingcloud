@@ -1,0 +1,56 @@
+{
+    "id": 190596,
+    "customerKey": "1699ae5f-5f3b-4c90-b028-1783d608139f",
+    "objectID": "8008cbf3-2c6e-499f-84fb-e853508c2974",
+    "assetType": {
+        "id": 23,
+        "name": "jpg",
+        "displayName": "Image"
+    },
+    "fileProperties": {
+        "extension": "jpg",
+        "fileName": "autumn-7493439_1920.jpg",
+        "fileSize": 1120809,
+        "height": 1280,
+        "width": 1920,
+        "fileCreatedDate": "2025-10-04T13:01:41.9953182-06:00",
+        "publishedURL": "https://image.s51.sfmc-content.com/lib/fe3511737364047a761571/m/1/8008cbf3-2c6e-499f-84fb-e853508c2974.jpg"
+    },
+    "name": "autumn-7493439_1920.jpg",
+    "owner": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "createdDate": "2025-10-04T13:01:41.997-06:00",
+    "createdBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "modifiedDate": "2025-10-04T13:01:41.997-06:00",
+    "modifiedBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 2,
+        "name": "Published"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/190596/thumbnail"
+    },
+    "category": {
+        "id": 92418,
+        "name": "Images",
+        "parentId": 65641
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}

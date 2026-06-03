@@ -1,0 +1,54 @@
+{
+    "id": 188531,
+    "customerKey": "a4ab558e-4b3f-4a79-be11-4772fe0f77b6",
+    "objectID": "adfb8946-ee14-48a4-98be-8f3b83b76748",
+    "assetType": {
+        "id": 23,
+        "name": "jpg",
+        "displayName": "Image"
+    },
+    "fileProperties": {
+        "fileName": "cat-7779237_1920.jpg",
+        "extension": "jpg",
+        "fileSize": 566254,
+        "fileCreatedDate": "2025-09-24T08:30:32.0439001-06:00",
+        "publishedURL": "https://image.s51.sfmc-content.com/lib/fe3511737364047a761571/m/1/adfb8946-ee14-48a4-98be-8f3b83b76748.jpg"
+    },
+    "name": "cat-7779237_1920.jpg",
+    "owner": {
+        "id": 737446677,
+        "email": "",
+        "name": "Marketing Cloud Demo app user",
+        "userId": "737446677"
+    },
+    "createdDate": "2025-09-24T08:30:32.043-06:00",
+    "createdBy": {
+        "id": 737446677,
+        "email": "",
+        "name": "Marketing Cloud Demo app user",
+        "userId": "737446677"
+    },
+    "modifiedDate": "2025-09-24T08:30:32.043-06:00",
+    "modifiedBy": {
+        "id": 737446677,
+        "email": "",
+        "name": "Marketing Cloud Demo app user",
+        "userId": "737446677"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 2,
+        "name": "Published"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/188531/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}

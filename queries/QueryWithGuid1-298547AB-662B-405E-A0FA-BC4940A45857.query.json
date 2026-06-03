@@ -1,0 +1,10 @@
+{
+    "queryDefinitionId": "8e6b0210-b35a-452d-8084-19b137268166",
+    "key": "298547AB-662B-405E-A0FA-BC4940A45857",
+    "name": "QueryWithGuid1",
+    "description": "",
+    "queryText": "SELECT ContactKey, Email, FirstName, LastName, Country, Birthdate\nFROM [All Contacts]\nWHERE DATEPART(\"month\", Birthdate) = DATEPART(\"month\", GetDate())\nAND DATEPART(\"day\", Birthdate) = DATEPART(\"day\", GetDate())",
+    "categoryId": 65630,
+    "createdDate": "2026-02-03T10:37:42.873",
+    "modifiedDate": "2026-02-03T10:37:42.873"
+}

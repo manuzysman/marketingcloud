@@ -1,0 +1,51 @@
+{
+    "id": 202941,
+    "customerKey": "3b0e9f06-cf6a-40f7-8a56-aaa3dea243eb",
+    "objectID": "dc36237e-2265-44ba-9cbf-e69e757f6b42",
+    "assetType": {
+        "id": 4,
+        "name": "template",
+        "displayName": "Template"
+    },
+    "fileProperties": {
+        "fileName": "sample-email-template-2"
+    },
+    "name": "sample-email-template-2",
+    "owner": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "createdDate": "2025-12-09T05:26:00.69-06:00",
+    "createdBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "modifiedDate": "2025-12-09T05:26:00.69-06:00",
+    "modifiedBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/202941/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "content": "<html>\n  <head>\n    \n  </head>\n  <body>\n    <div>\n      This is a sample template\n    </div>\n  </body>\n</html>",
+    "availableViews": [],
+    "modelVersion": 2
+}

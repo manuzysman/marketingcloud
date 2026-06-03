@@ -1,0 +1,51 @@
+{
+    "id": 202938,
+    "customerKey": "cd6732ca-3e21-4f89-a807-744730d43edf",
+    "objectID": "96605221-32e7-4538-8021-f3ce8280cad4",
+    "assetType": {
+        "id": 4,
+        "name": "template",
+        "displayName": "Template"
+    },
+    "fileProperties": {
+        "fileName": "Eduhub Sample Email"
+    },
+    "name": "Eduhub Sample Email",
+    "owner": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "createdDate": "2025-12-09T05:25:45.547-06:00",
+    "createdBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "modifiedDate": "2025-12-09T05:25:45.547-06:00",
+    "modifiedBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/202938/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "content": "<!DOCTYPE html><html> <head>  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />  <meta name=\"viewport\" content=\"width=device-width, initialscale=1.0\" />  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />  <style type=\"text/css\">@media screen and (max-width: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-right: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {margin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}</style>  <style type=\"text/css\">@media screen and (max-width: 480px) {.contentbuilderBaseColumnRow .columnCell {display:inline-block;width:100%}}</style>  <style type=\"text/css\">.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 600px;}@media only screen and (max-width: 480px) {.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}</style> </head> <body>  <table class=\"contentpageDefaultEmailTemplatePageTemplate\" style=\"background-color: #E9EAEC;\" role=\"presentation\" id=\"contentpage_emailTemplateBodyContent\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">       <tr>     <td width=\"100%\" align=\"center\">      <table class=\"contentRoot\" style=\"background-color: #FFFFFF;\" role=\"presentation\" width=\"600\" cellpadding=\"0\" cellspacing=\"0\">               <tr>         <td style=\"padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;\">          <table class=\"contentbuilderBaseColumnRow\" style=\"align-items: flex-start; width: 100%; background-color:;\" role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">                       <tr valign=\"top\">             <td width=\"100%\" class=\"columnCell\" style=\"vertical-align: top;display: inline-block; float:left\">              <table cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse; word-break:break-word;\">                               <tr>                 <td>                  <table style=\"width:100%; border-collapse: collapse; word-break:break-word;\" id=\"contentRegion\" role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" locked=\"0\">                                       <tr>                     <td align=\"Center\"><img style=\"width: 100%; display: block; border: none; max-width: 100%; object-fit: fill;\" src=\"https://eduhubsolutions-e-dev-ed.file.force.com/file-asset-public/eduhub__X2header?oid=00D8d000005D00i\" alt=\"\" width=\"600\" /></td>                    </tr>                                     </table></td>                </tr>                             </table></td>            </tr>                     </table>          <table class=\"contentbuilderBaseColumnRow\" style=\"align-items: flex-start; width: 100%; background-color:#F7FDFF;\" role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">                       <tr valign=\"top\">             <td width=\"100%\" class=\"columnCell\" style=\"vertical-align: top;display: inline-block; float:left\">              <table cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse; word-break:break-word;\">                               <tr>                 <td>                  <table style=\"width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px\" id=\"contentRegion\" role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" locked=\"0\">                                       <tr>                     <td style=\"font-family: Arial, Helvetica, sans-serif;padding-top: 15px;padding-right: 15px;padding-bottom: 15px;padding-left: 15px;\"><span style=\"color:#102651;\">Hello,</span>                      <div style=\"text-align: center;\">                       <span style=\"color:#102651;\"><span style=\"font-size:16px;\">Your verification code:<strong>&nbsp;<br /> {{{Recipient.eduhub__Verification_Code__c}}}</strong></span></span>                      </div><br /><span style=\"color:#102651;\">Best regards,<br /> Eduhub University</span></td>                    </tr>                                     </table></td>                </tr>                             </table></td>            </tr>                     </table>          <table class=\"contentbuilderBaseColumnRow\" style=\"align-items: flex-start; width: 100%; background-color:;\" role=\"presentation\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\">                       <tr valign=\"top\">             <td width=\"100%\" class=\"columnCell\" style=\"vertical-align: top;display: inline-block; float:left\">              <table cellpadding=\"0\" cellspacing=\"0\" style=\"width: 100%; border-collapse: collapse; word-break:break-word;\">                               <tr>                 <td>                  <table style=\"width:100%; border-collapse: collapse; word-break:break-word;\" id=\"contentRegion\" role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" locked=\"0\">                                       <tr>                     <td align=\"Center\"><img style=\"width: 100%; display: block; border: none; max-width: 100%; object-fit: fill;\" src=\"https://eduhubsolutions-e-dev-ed.file.force.com/file-asset-public/eduhub__X2footer?oid=00D8d000005D00i\" alt=\"\" width=\"600\" /></td>                    </tr>                                     </table></td>                </tr>                             </table></td>            </tr>                     </table></td>        </tr>             </table></td>    </tr>     </table> </body></html>",
+    "availableViews": [],
+    "modelVersion": 2
+}

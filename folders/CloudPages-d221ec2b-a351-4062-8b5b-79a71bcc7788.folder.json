@@ -1,0 +1,13 @@
+{
+    "categoryId": 65642,
+    "objectId": "d221ec2b-a351-4062-8b5b-79a71bcc7788",
+    "name": "CloudPages",
+    "categoryDesc": "The root folder for CloudPages",
+    "catType": "cloudpages",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:17.47",
+    "modifiedDate": "2024-11-06T09:35:17.47",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

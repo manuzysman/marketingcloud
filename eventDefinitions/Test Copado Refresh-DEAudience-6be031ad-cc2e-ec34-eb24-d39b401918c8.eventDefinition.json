@@ -1,0 +1,43 @@
+{
+    "id": "2157eff8-6f51-48fa-a736-a427b72745f0",
+    "type": "EmailAudience",
+    "name": "Test Copado Refresh",
+    "description": "",
+    "createdDate": "2025-08-22T07:39:36.013",
+    "createdBy": 737357460,
+    "modifiedDate": "2025-08-22T07:39:36.013",
+    "modifiedBy": 737357460,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-6be031ad-cc2e-ec34-eb24-d39b401918c8",
+    "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "Contact Data",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "2157eff8-6f51-48fa-a736-a427b72745f0",
+        "eventDefinitionKey": "DEAudience-6be031ad-cc2e-ec34-eb24-d39b401918c8",
+        "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+        "criteria": "",
+        "useHighWatermark": false,
+        "automationId": "a2c2d3da-31be-4bf3-abbf-636ecf32ab35"
+    },
+    "configurationArguments": {
+        "unconfigured": false
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "128563ed-f5b6-48af-8a84-3d578395d36d",
+    "disableDEDataLogging": false
+}

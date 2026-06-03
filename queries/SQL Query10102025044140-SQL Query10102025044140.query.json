@@ -1,0 +1,10 @@
+{
+    "queryDefinitionId": "19c302ce-8029-4fac-b305-e49cf2e7a935",
+    "key": "SQL Query10102025044140",
+    "name": "SQL Query10102025044140",
+    "description": "",
+    "queryText": "SELECT\nFirst_Name, Last_Name, Email, Mobile\nFROM [Data Extension Test]\nWHERE Email='test@gmail.com'\n",
+    "categoryId": 65630,
+    "createdDate": "2026-02-03T10:23:51.867",
+    "modifiedDate": "2026-02-03T10:23:51.867"
+}

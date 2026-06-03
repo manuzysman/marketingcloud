@@ -1,0 +1,14 @@
+{
+    "id": "ebb6b115-6f93-4a39-8f3c-9536808ba07d",
+    "name": "Automation with Import File1",
+    "description": "",
+    "key": "7bd77801-dfb0-96de-279e-2c7d52dc0c94",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 2,
+    "status": "Ready",
+    "categoryId": 65634,
+    "schedule": {
+        "scheduleStatus": "none"
+    }
+}

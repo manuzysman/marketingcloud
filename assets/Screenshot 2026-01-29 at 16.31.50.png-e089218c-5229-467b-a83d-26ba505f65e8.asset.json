@@ -1,0 +1,56 @@
+{
+    "id": 209235,
+    "customerKey": "e089218c-5229-467b-a83d-26ba505f65e8",
+    "objectID": "322060f4-ab5d-4389-a703-894f39c64107",
+    "assetType": {
+        "id": 28,
+        "name": "png",
+        "displayName": "Image"
+    },
+    "fileProperties": {
+        "fileName": "Screenshot 2026-01-29 at 16.31.50.png",
+        "extension": "png",
+        "fileSize": 23931,
+        "fileCreatedDate": "2026-01-29T09:38:19.3193885-06:00",
+        "width": 604,
+        "height": 512,
+        "publishedURL": "https://image.s51.sfmc-content.com/lib/fe3511737364047a761571/m/1/322060f4-ab5d-4389-a703-894f39c64107.png"
+    },
+    "name": "Screenshot 2026-01-29 at 16.31.50.png",
+    "owner": {
+        "id": 737446677,
+        "email": "",
+        "name": "Marketing Cloud Demo app user",
+        "userId": "737446677"
+    },
+    "createdDate": "2026-01-29T09:38:19.32-06:00",
+    "createdBy": {
+        "id": 737446677,
+        "email": "",
+        "name": "Marketing Cloud Demo app user",
+        "userId": "737446677"
+    },
+    "modifiedDate": "2026-01-29T09:38:19.32-06:00",
+    "modifiedBy": {
+        "id": 737446677,
+        "email": "",
+        "name": "Marketing Cloud Demo app user",
+        "userId": "737446677"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 2,
+        "name": "Published"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/209235/thumbnail"
+    },
+    "category": {
+        "id": 101901,
+        "name": "NewSubFolderTestJan29",
+        "parentId": 101900
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}

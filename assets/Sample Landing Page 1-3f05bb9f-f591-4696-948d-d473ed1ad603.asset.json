@@ -1,0 +1,54 @@
+{
+    "id": 209742,
+    "customerKey": "3f05bb9f-f591-4696-948d-d473ed1ad603",
+    "objectID": "e9dc1f00-04be-4db2-ba77-8b92c43da865",
+    "assetType": {
+        "id": 247,
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "Sample Landing Page 1",
+    "description": "",
+    "owner": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "createdDate": "2026-02-03T05:50:39.573-06:00",
+    "createdBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "modifiedDate": "2026-02-03T05:50:39.95-06:00",
+    "modifiedBy": {
+        "id": 737342407,
+        "email": "tugce@eduhub.solutions",
+        "name": "Tu\u011f\u00e7e \u015eirin",
+        "userId": "737342407"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/209742/thumbnail"
+    },
+    "category": {
+        "id": 65642,
+        "name": "CloudPages",
+        "parentId": 0
+    },
+    "content": "{\"url\":\"https://fe3511737364047a761571.pub.s51.sfmc-content.com/1q30akyyyum\"}",
+    "meta": {
+        "thumbnailRefAssetId": 209743,
+        "cloudPages": {}
+    },
+    "availableViews": [],
+    "modelVersion": 2
+}

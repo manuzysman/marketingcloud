@@ -1,0 +1,30 @@
+{
+    "id": "d9e81b80-13ff-4358-8608-722a191073ab",
+    "name": "SoapTestAuto1",
+    "description": "",
+    "key": "SoapTestAuto1",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 2,
+    "status": "Ready",
+    "categoryId": 65634,
+    "schedule": {
+        "scheduleStatus": "none"
+    },
+    "steps": [
+        {
+            "id": "5107205d-f383-48b1-bd0b-f979ed920733",
+            "name": "Load Data Views",
+            "step": 1,
+            "activities": [
+                {
+                    "id": "c1a4b90f-1d22-450c-9e3f-fe541c0e70cd",
+                    "name": "DataView_Sent",
+                    "activityObjectId": "64315dd7-95c6-430d-940e-09f72147f8a1",
+                    "objectTypeId": 300,
+                    "displayOrder": 1
+                }
+            ]
+        }
+    ]
+}

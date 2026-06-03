@@ -1,0 +1,14 @@
+{
+    "id": "3668520c-e3ff-46ca-85a6-5613536dd890",
+    "name": "NewAutomation092625102716",
+    "description": "",
+    "key": "8ae93c89-d8e3-41c5-f411-b350c96baf00",
+    "typeId": 1,
+    "type": "scheduled",
+    "statusId": 2,
+    "status": "Ready",
+    "categoryId": 65634,
+    "schedule": {
+        "scheduleStatus": "none"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "categoryId": 65639,
+    "objectId": "20512415-e2c7-432d-84e8-fd89f046e4ba",
+    "name": "Journey Builder Sends",
+    "categoryDesc": "",
+    "catType": "triggered_send_journeybuilder",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:16.523",
+    "modifiedDate": "2024-11-06T09:35:16.523",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

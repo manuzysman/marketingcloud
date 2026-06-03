@@ -1,0 +1,40 @@
+{
+    "id": "707e5250-31e3-4244-9e24-3b798215f9fa",
+    "type": "EmailAudience",
+    "name": "Copado Sample Demo Journey Feb 3",
+    "description": "",
+    "createdDate": "2026-02-03T05:54:07.363",
+    "createdBy": 737446677,
+    "modifiedDate": "2026-02-03T05:54:07.363",
+    "modifiedBy": 737446677,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-b1dae297-a112-ec1a-a45e-c142bbd92784",
+    "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+    "dataExtensionName": "Contact Data",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "707e5250-31e3-4244-9e24-3b798215f9fa",
+        "eventDefinitionKey": "DEAudience-b1dae297-a112-ec1a-a45e-c142bbd92784",
+        "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
+        "automationId": "abec3b8d-9a07-4034-83fc-1ef922c4c76c",
+        "criteria": ""
+    },
+    "configurationArguments": {
+        "unconfigured": true
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "dff8ede4-3947-4fae-85a7-15e22c834ca1",
+    "disableDEDataLogging": false
+}

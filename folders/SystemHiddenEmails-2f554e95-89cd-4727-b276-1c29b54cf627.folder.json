@@ -1,0 +1,13 @@
+{
+    "categoryId": 65644,
+    "objectId": "2f554e95-89cd-4727-b276-1c29b54cf627",
+    "name": "SystemHiddenEmails",
+    "categoryDesc": "email folder to store email items",
+    "catType": "email",
+    "parentCatId": 65643,
+    "createDate": "2024-11-06T09:35:17.647",
+    "modifiedDate": "2024-11-06T09:35:17.647",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}

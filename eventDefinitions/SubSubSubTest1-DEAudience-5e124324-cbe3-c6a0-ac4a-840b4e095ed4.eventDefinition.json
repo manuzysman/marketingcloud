@@ -1,0 +1,40 @@
+{
+    "id": "1b4b422e-97b0-43f8-b895-ba81f80525c0",
+    "type": "EmailAudience",
+    "name": "SubSubSubTest1",
+    "description": "",
+    "createdDate": "2025-10-10T13:28:07.01",
+    "createdBy": 737357460,
+    "modifiedDate": "2025-10-10T13:28:07.01",
+    "modifiedBy": 737357460,
+    "mode": "Production",
+    "eventDefinitionKey": "DEAudience-5e124324-cbe3-c6a0-ac4a-840b4e095ed4",
+    "dataExtensionId": "3865f952-8ba3-f011-ba69-f40343e7e538",
+    "dataExtensionName": "Data Extension Test1",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "eventDefinitionId": "1b4b422e-97b0-43f8-b895-ba81f80525c0",
+        "eventDefinitionKey": "DEAudience-5e124324-cbe3-c6a0-ac4a-840b4e095ed4",
+        "dataExtensionId": "3865f952-8ba3-f011-ba69-f40343e7e538",
+        "criteria": "",
+        "automationId": "8df5f7d5-99b8-4af3-afa1-7caa4fb30da2"
+    },
+    "configurationArguments": {
+        "unconfigured": false
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "isPlatformObject": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "automationId": "a548777a-beee-4c8c-8140-7e09b4c441b8",
+    "disableDEDataLogging": false
+}

@@ -1,0 +1,51 @@
+{
+    "id": 211566,
+    "customerKey": "5316c464-8824-41f2-aec2-ee3e3874ed32",
+    "objectID": "eeb1099c-be0c-44c0-9d5b-943839e1021f",
+    "assetType": {
+        "id": 220,
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "code-block-1"
+    },
+    "name": "code-block-1",
+    "owner": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "createdDate": "2026-02-15T02:45:09.517-06:00",
+    "createdBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "modifiedDate": "2026-02-15T02:45:09.517-06:00",
+    "modifiedBy": {
+        "id": 737357460,
+        "email": "",
+        "name": "Copado Marketing Cloud Connector app user",
+        "userId": "737357460"
+    },
+    "enterpriseId": 536002713,
+    "memberId": 536007311,
+    "status": {
+        "id": 1,
+        "name": "Draft"
+    },
+    "thumbnail": {
+        "thumbnailUrl": "/v1/assets/211566/thumbnail"
+    },
+    "category": {
+        "id": 65641,
+        "name": "Content Builder",
+        "parentId": 0
+    },
+    "content": "console.log('starting something');\n%%=Lowercase(tesr)=%%",
+    "availableViews": [],
+    "modelVersion": 2
+}

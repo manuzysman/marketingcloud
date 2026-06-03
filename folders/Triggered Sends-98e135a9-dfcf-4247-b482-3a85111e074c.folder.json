@@ -1,0 +1,13 @@
+{
+    "categoryId": 65625,
+    "objectId": "98e135a9-dfcf-4247-b482-3a85111e074c",
+    "name": "Triggered Sends",
+    "categoryDesc": "",
+    "catType": "triggered_send",
+    "parentCatId": 0,
+    "createDate": "2024-11-06T09:35:11.247",
+    "modifiedDate": "2024-11-06T09:35:11.247",
+    "isActive": null,
+    "isEditable": null,
+    "allowChildren": null
+}
