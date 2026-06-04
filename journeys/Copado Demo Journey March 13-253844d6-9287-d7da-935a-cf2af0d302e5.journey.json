@@ -3,13 +3,13 @@
     "name": "Copado Demo Journey March 13",
     "lastPublishedDate": "0001-01-01T00:00:00",
     "description": "",
-    "version": 2,
+    "version": 1,
     "workflowApiVersion": 1.0,
-    "createdDate": "2026-03-13T08:45:43.13",
-    "modifiedDate": "2026-03-13T08:45:43.13",
+    "createdDate": "2026-03-13T08:36:35.703",
+    "modifiedDate": "2026-03-13T08:36:50.363",
     "activities": [
         {
-            "id": "967b2537-67a9-413a-953b-9645977262a0",
+            "id": "51d33f3b-c901-4744-8df2-fdb66f797ba5",
             "key": "WAITUNTILSPECIFICDATE-1",
             "name": "February 8, 2026 12:01 AM",
             "description": "",
@@ -94,237 +94,7 @@
             }
         },
         {
-            "id": "28e15e05-cce6-4b26-b834-11b854cdb097",
-            "key": "EMAILV2-1",
-            "name": "copado_email_110525051156",
-            "description": "",
-            "type": "EMAILV2",
-            "outcomes": [
-                {
-                    "key": "0f69ef54-1893-45e2-8492-8f58d0f6aa52",
-                    "next": "WAITBYDURATION-1",
-                    "arguments": {},
-                    "metaData": {
-                        "invalid": false
-                    }
-                }
-            ],
-            "arguments": {},
-            "configurationArguments": {
-                "applicationExtensionKey": "jb-email-activity",
-                "isModified": true,
-                "triggeredSend": {
-                    "autoAddSubscribers": true,
-                    "autoUpdateSubscribers": true,
-                    "bccEmail": "",
-                    "ccEmail": "",
-                    "created": {
-                        "name": "",
-                        "date": ""
-                    },
-                    "domainExclusions": [],
-                    "dynamicEmailSubject": "Copado Email Test2 TugceTest1",
-                    "emailId": 203685,
-                    "emailSubject": "Copado Email Test2 TugceTest1",
-                    "exclusionFilter": "",
-                    "isSalesforceTracking": true,
-                    "isMultipart": true,
-                    "isSendLogging": true,
-                    "isStoppedOnJobError": false,
-                    "modified": {
-                        "name": "",
-                        "date": ""
-                    },
-                    "preHeader": "",
-                    "priority": 4,
-                    "sendClassificationId": "6185b3f3-589c-ef11-ba84-f40343e86d98",
-                    "isReconcilable": null,
-                    "reconciliationExpiryHours": null,
-                    "throttleOpens": "1/1/0001 12:00:00 AM",
-                    "throttleCloses": "1/1/0001 12:00:00 AM",
-                    "deliveryProfileId": "eac30242-986c-ed11-ba3e-f40343e7e538",
-                    "senderProfileId": "a7e395ed-589c-ef11-ba84-f40343e86d98",
-                    "isTrackingClicks": true,
-                    "publicationListId": 288
-                }
-            },
-            "metaData": {
-                "category": "message",
-                "version": "1.0",
-                "icon": "https://jb-email-activity.s51.marketingcloudapps.com/img/email-icon.svg",
-                "iconSmall": "https://jb-email-activity.s51.marketingcloudapps.com/img/email-icon.svg",
-                "original_icon": "/img/email-icon.svg",
-                "original_iconSmall": "/img/email-icon.svg",
-                "sections": {},
-                "isConfigured": true
-            },
-            "schema": {
-                "arguments": {
-                    "requestID": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "Out",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "messageKey": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "Out",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "activityId": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "definitionId": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": true,
-                        "access": "Hidden"
-                    },
-                    "emailSubjectDataBound": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": true,
-                        "access": "Hidden"
-                    },
-                    "contactId": {
-                        "dataType": "Number",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "contactKey": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "emailAddress": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "sourceCustomObjectId": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "sourceCustomObjectKey": {
-                        "dataType": "LongNumber",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "fieldType": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "eventData": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "obfuscationProperties": {
-                        "dataType": "Text",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "customObjectKey": {
-                        "dataType": "LongNumber",
-                        "isNullable": true,
-                        "direction": "In",
-                        "readOnly": true,
-                        "access": "Hidden"
-                    },
-                    "definitionInstanceId": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    }
-                }
-            }
-        },
-        {
-            "id": "b35e193f-cdbb-446f-ba1f-27868cba4284",
-            "key": "MULTICRITERIADECISIONV2-1",
-            "name": "",
-            "description": "",
-            "type": "MULTICRITERIADECISION",
-            "outcomes": [
-                {
-                    "key": "default_path_1",
-                    "next": "EMAILV2-1",
-                    "arguments": {},
-                    "metaData": {
-                        "label": null,
-                        "criteriaDescription": "Contact Key this is a changed text",
-                        "invalid": false
-                    }
-                },
-                {
-                    "key": "remainder_path",
-                    "arguments": {},
-                    "metaData": {
-                        "label": "Remainder",
-                        "invalid": false
-                    }
-                }
-            ],
-            "arguments": {},
-            "configurationArguments": {
-                "criteria": {
-                    "default_path_1": "<FilterDefinition><ConditionSet Operator=\"AND\" ConditionSetName=\"Individual Filter Grouping\"><Condition Key=\"Contact.Contact Key\" Operator=\"Contains\" UiMetaData=\"{&quot;groupToSetRelationshipId&quot;:&quot;b928fc4d-986c-ed11-ba3e-f40343e7e538&quot;}\"><Value><![CDATA[test]]></Value></Condition></ConditionSet></FilterDefinition>"
-                },
-                "schemaVersionId": "252"
-            },
-            "metaData": {
-                "isConfigured": true
-            },
-            "schema": {
-                "arguments": {
-                    "actualChoice": {
-                        "dataType": "Number",
-                        "isNullable": false,
-                        "direction": "Out",
-                        "readOnly": false,
-                        "access": "Hidden"
-                    },
-                    "filterResult": {
-                        "dataType": "Text",
-                        "isNullable": false,
-                        "direction": "In",
-                        "readOnly": true,
-                        "access": "Hidden"
-                    }
-                }
-            }
-        },
-        {
-            "id": "02572447-c844-4c47-a0b6-7e007998f707",
+            "id": "44a8c75c-9d69-43a6-9154-061110409b1d",
             "key": "EMAILV2-2",
             "name": "copado_email_2",
             "description": "",
@@ -349,7 +119,7 @@
                     "created": {},
                     "domainExclusions": [],
                     "dynamicEmailSubject": "Copado Email 2",
-                    "emailId": 202937,
+                    "emailId": 47912,
                     "emailSubject": "Copado Email 2",
                     "exclusionFilter": "",
                     "isSalesforceTracking": true,
@@ -359,15 +129,12 @@
                     "modified": {},
                     "preHeader": "",
                     "priority": 4,
-                    "sendClassificationId": "6185b3f3-589c-ef11-ba84-f40343e86d98",
+                    "sendClassificationId": "b1f235b4-549c-ef11-ba84-f40343e86d98",
                     "isReconcilable": null,
                     "reconciliationExpiryHours": null,
                     "throttleOpens": "1/1/0001 12:00:00 AM",
                     "throttleCloses": "1/1/0001 12:00:00 AM",
-                    "deliveryProfileId": "eac30242-986c-ed11-ba3e-f40343e7e538",
-                    "senderProfileId": "a7e395ed-589c-ef11-ba84-f40343e86d98",
-                    "isTrackingClicks": true,
-                    "publicationListId": 288
+                    "isTrackingClicks": true
                 },
                 "applicationExtensionKey": "jb-email-activity"
             },
@@ -492,7 +259,7 @@
             }
         },
         {
-            "id": "dc529abe-c122-4025-a76b-9a860e248b27",
+            "id": "fa6025b0-ecfa-424d-b6d0-a7b3cf946fa4",
             "key": "WAITBYDURATION-1",
             "name": "3 days",
             "description": "",
@@ -574,11 +341,238 @@
                     }
                 }
             }
+        },
+        {
+            "id": "239a662f-6608-4391-9b58-f4e578aa2413",
+            "key": "EMAILV2-1",
+            "name": "copado_email_110525051156",
+            "description": "",
+            "type": "EMAILV2",
+            "outcomes": [
+                {
+                    "key": "0f69ef54-1893-45e2-8492-8f58d0f6aa52",
+                    "next": "WAITBYDURATION-1",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {},
+            "configurationArguments": {
+                "applicationExtensionKey": "jb-email-activity",
+                "isModified": true,
+                "triggeredSend": {
+                    "autoAddSubscribers": true,
+                    "autoUpdateSubscribers": true,
+                    "bccEmail": "",
+                    "ccEmail": "",
+                    "created": {
+                        "name": "",
+                        "date": ""
+                    },
+                    "domainExclusions": [],
+                    "dynamicEmailSubject": "Copado Email Test2 TugceTest1",
+                    "emailId": 48137,
+                    "emailSubject": "Copado Email Test2 TugceTest1",
+                    "exclusionFilter": "",
+                    "isSalesforceTracking": true,
+                    "isMultipart": true,
+                    "isSendLogging": true,
+                    "isStoppedOnJobError": false,
+                    "modified": {
+                        "name": "",
+                        "date": ""
+                    },
+                    "preHeader": "",
+                    "priority": 4,
+                    "sendClassificationId": "b1f235b4-549c-ef11-ba84-f40343e86d98",
+                    "isReconcilable": null,
+                    "reconciliationExpiryHours": null,
+                    "throttleOpens": "1/1/0001 12:00:00 AM",
+                    "throttleCloses": "1/1/0001 12:00:00 AM",
+                    "isTrackingClicks": true
+                }
+            },
+            "metaData": {
+                "category": "message",
+                "version": "1.0",
+                "icon": "https://jb-email-activity.s51.marketingcloudapps.com/img/email-icon.svg",
+                "iconSmall": "https://jb-email-activity.s51.marketingcloudapps.com/img/email-icon.svg",
+                "original_icon": "/img/email-icon.svg",
+                "original_iconSmall": "/img/email-icon.svg",
+                "sections": {},
+                "isConfigured": true
+            },
+            "schema": {
+                "arguments": {
+                    "requestID": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "messageKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "activityId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": true,
+                        "access": "Hidden"
+                    },
+                    "emailSubjectDataBound": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": true,
+                        "access": "Hidden"
+                    },
+                    "contactId": {
+                        "dataType": "Number",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "emailAddress": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "sourceCustomObjectId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "sourceCustomObjectKey": {
+                        "dataType": "LongNumber",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "fieldType": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "obfuscationProperties": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "customObjectKey": {
+                        "dataType": "LongNumber",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": true,
+                        "access": "Hidden"
+                    },
+                    "definitionInstanceId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "id": "5165d726-4ab3-42c7-9f3c-f85620569ec5",
+            "key": "MULTICRITERIADECISIONV2-1",
+            "name": "",
+            "description": "",
+            "type": "MULTICRITERIADECISION",
+            "outcomes": [
+                {
+                    "key": "default_path_1",
+                    "next": "EMAILV2-1",
+                    "arguments": {},
+                    "metaData": {
+                        "label": null,
+                        "criteriaDescription": "Contact Key contains test",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "remainder_path",
+                    "arguments": {},
+                    "metaData": {
+                        "label": "Remainder",
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {},
+            "configurationArguments": {
+                "criteria": {
+                    "default_path_1": "<FilterDefinition><ConditionSet Operator=\"AND\" ConditionSetName=\"Individual Filter Grouping\"><Condition Key=\"Contact.Contact Key\" Operator=\"Contains\" UiMetaData=\"{&quot;groupToSetRelationshipId&quot;:&quot;b928fc4d-986c-ed11-ba3e-f40343e7e538&quot;}\"><Value><![CDATA[test]]></Value></Condition></ConditionSet></FilterDefinition>"
+                },
+                "schemaVersionId": "252"
+            },
+            "metaData": {
+                "isConfigured": true
+            },
+            "schema": {
+                "arguments": {
+                    "actualChoice": {
+                        "dataType": "Number",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "filterResult": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": true,
+                        "access": "Hidden"
+                    }
+                }
+            }
         }
     ],
     "triggers": [
         {
-            "id": "7af4e312-3292-45dc-aa20-b6b72460eb8e",
+            "id": "77179476-3274-4626-9cce-2630c55dcd94",
             "key": "TRIGGER",
             "name": "TRIGGER",
             "description": "",
@@ -588,7 +582,7 @@
             "configurationArguments": {},
             "metaData": {
                 "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
-                "eventDefinitionId": "224b0c65-adca-44f0-93e0-b1e65a0630db",
+                "eventDefinitionId": "b91961b2-3d7c-4076-8400-f7310bb9424f",
                 "eventDefinitionKey": "DEAudience-cb45ec59-d15a-cbb9-0e8f-6fe53fb14af5",
                 "chainType": "None",
                 "configurationRequired": false,

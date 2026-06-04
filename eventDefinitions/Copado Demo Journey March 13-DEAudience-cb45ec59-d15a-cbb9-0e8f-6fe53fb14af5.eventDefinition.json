@@ -1,12 +1,12 @@
 {
-    "id": "224b0c65-adca-44f0-93e0-b1e65a0630db",
+    "id": "b91961b2-3d7c-4076-8400-f7310bb9424f",
     "type": "EmailAudience",
     "name": "Copado Demo Journey March 13",
     "description": "",
-    "createdDate": "2026-03-13T08:40:43.013",
-    "createdBy": 737446677,
-    "modifiedDate": "2026-03-13T08:40:43.013",
-    "modifiedBy": 737446677,
+    "createdDate": "2026-03-13T08:36:35.12",
+    "createdBy": 737342407,
+    "modifiedDate": "2026-03-13T08:36:35.12",
+    "modifiedBy": 737342407,
     "mode": "Production",
     "eventDefinitionKey": "DEAudience-cb45ec59-d15a-cbb9-0e8f-6fe53fb14af5",
     "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
@@ -17,7 +17,7 @@
     "iconUrl": "/images/icon-data-extension.svg",
     "arguments": {
         "serializedObjectType": 3,
-        "eventDefinitionId": "224b0c65-adca-44f0-93e0-b1e65a0630db",
+        "eventDefinitionId": "b91961b2-3d7c-4076-8400-f7310bb9424f",
         "eventDefinitionKey": "DEAudience-cb45ec59-d15a-cbb9-0e8f-6fe53fb14af5",
         "dataExtensionId": "6d3f797e-589c-ef11-ba84-f40343e86d98",
         "automationId": "e675ac2f-9b7c-4903-a788-c0e301b68aca",
@@ -30,11 +30,11 @@
         "scheduleState": "No Schedule",
         "criteriaDescription": null
     },
-    "interactionCount": 2,
+    "interactionCount": 1,
     "isVisibleInPicker": false,
     "isPlatformObject": false,
     "category": "Audience",
     "publishedInteractionCount": 0,
-    "automationId": "48aa88ee-cd39-4266-958c-7cfba4da2eb8",
+    "automationId": "6eae3f80-a07d-40fa-b745-515db342b01d",
     "disableDEDataLogging": false
 }
