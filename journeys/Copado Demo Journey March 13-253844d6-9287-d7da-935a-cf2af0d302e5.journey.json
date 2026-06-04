@@ -119,7 +119,7 @@
                     "created": {},
                     "domainExclusions": [],
                     "dynamicEmailSubject": "Copado Email 2",
-                    "emailId": 35198,
+                    "emailId": 47912,
                     "emailSubject": "Copado Email 2",
                     "exclusionFilter": "",
                     "isSalesforceTracking": true,
@@ -129,15 +129,12 @@
                     "modified": {},
                     "preHeader": "",
                     "priority": 4,
-                    "sendClassificationId": "6185b3f3-589c-ef11-ba84-f40343e86d98",
+                    "sendClassificationId": "b1f235b4-549c-ef11-ba84-f40343e86d98",
                     "isReconcilable": null,
                     "reconciliationExpiryHours": null,
                     "throttleOpens": "1/1/0001 12:00:00 AM",
                     "throttleCloses": "1/1/0001 12:00:00 AM",
-                    "deliveryProfileId": "eac30242-986c-ed11-ba3e-f40343e7e538",
-                    "senderProfileId": "a7e395ed-589c-ef11-ba84-f40343e86d98",
-                    "isTrackingClicks": true,
-                    "publicationListId": 288
+                    "isTrackingClicks": true
                 },
                 "applicationExtensionKey": "jb-email-activity"
             },
@@ -376,7 +373,7 @@
                     },
                     "domainExclusions": [],
                     "dynamicEmailSubject": "Copado Email Test2 TugceTest1",
-                    "emailId": 46171,
+                    "emailId": 48137,
                     "emailSubject": "Copado Email Test2 TugceTest1",
                     "exclusionFilter": "",
                     "isSalesforceTracking": true,
@@ -389,15 +386,12 @@
                     },
                     "preHeader": "",
                     "priority": 4,
-                    "sendClassificationId": "6185b3f3-589c-ef11-ba84-f40343e86d98",
+                    "sendClassificationId": "b1f235b4-549c-ef11-ba84-f40343e86d98",
                     "isReconcilable": null,
                     "reconciliationExpiryHours": null,
                     "throttleOpens": "1/1/0001 12:00:00 AM",
                     "throttleCloses": "1/1/0001 12:00:00 AM",
-                    "deliveryProfileId": "eac30242-986c-ed11-ba3e-f40343e7e538",
-                    "senderProfileId": "a7e395ed-589c-ef11-ba84-f40343e86d98",
-                    "isTrackingClicks": true,
-                    "publicationListId": 288
+                    "isTrackingClicks": true
                 }
             },
             "metaData": {
